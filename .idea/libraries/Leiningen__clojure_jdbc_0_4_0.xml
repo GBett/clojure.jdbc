@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: clojure.jdbc:0.4.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/clojure/jdbc/clojure.jdbc/0.4.0/clojure.jdbc-0.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

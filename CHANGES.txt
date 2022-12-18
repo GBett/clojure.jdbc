@@ -1,0 +1,44 @@
+Changelog
+=========
+
+Version 0.3.4
+-------------
+
+- Update version of dependency: com.mchange/c3p0 0.9.5.4
+
+Version 0.3.3
+-------------
+
+- Accept string db-uri as parameter and don't crash if there are no query parameters
+- Update version of dependency: com.mchange/c3p0 0.9.5.2
+- Update version of dev dependency: clojure.jdbc 0.4.0
+- Update version of dev dependency: com.h2database/h2 1.4.196
+
+
+Version 0.3.2
+-------------
+
+- Remove explicit dependency to clojure.jdbc
+
+
+Version 0.3.1
+-------------
+
+- Move tests from clojure.jdbc to this package.
+- Add explicit clojure.jdbc version dependency.
+- Datasource is now a record that implements java.io.Closeable
+- Changed parameter `:max-wait-millis` to `:max-wait`
+- Normalize all parameters related to time, to miliseconds as unit.
+
+
+Version 0.3.0
+-------------
+
+- Rewrite the datasource build process.
+- Unify parameters with others clojure.jdbc pools extensions.
+
+
+Version 0.2.0
+-------------
+
+Initial usable version.
